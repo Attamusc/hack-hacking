@@ -1,0 +1,14 @@
+{
+    "name": "Attamusc/hack-hacking",
+    "description": "Messing around with hack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sean Dunn",
+            "email": "sean@attamusc.com"
+        }
+    ],
+    "require": {
+
+    }
+}
