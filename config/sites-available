@@ -1,7 +1,7 @@
 server {
         listen   80 default_server;
 
-        root /vagrant/www/;
+        root /vagrant/public/;
         index index.php index.html index.htm index.hh;
 
         location / {
