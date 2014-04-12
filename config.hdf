@@ -1,5 +1,5 @@
 Server {
-    SourceRoot = /public/
+    SourceRoot = /app/public/
     DefaultDocument = index.hh
 }
 
