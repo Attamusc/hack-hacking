@@ -5,6 +5,8 @@ require_once '../lib/Router.hh';
 
 use \HH\Map;
 
+echo $_SERVER["REQUEST_URI"] . "<br/>";
+
 $app = new \Slim\Slim();
 
 Router::loadRoutes();
