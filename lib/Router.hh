@@ -1,4 +1,4 @@
-<?hh
+<?hh namespace lib;
 
 use \HH\Map;
 

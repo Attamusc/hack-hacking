@@ -1,4 +1,4 @@
-<?hh
+<?hh namespace app;
 
 class Test {
   public static function index(): void {
