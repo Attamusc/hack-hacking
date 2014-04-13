@@ -1,7 +1,7 @@
 <?hh namespace app;
 require_once '../vendor/autoload.php';
 
-require_once '../lib/Router.hh';
+require_once '../lib/Router.php';
 
 use \HH\Map;
 use \lib\Router;
