@@ -1,6 +1,6 @@
 Server {
     SourceRoot = /app/public/
-    DefaultDocument = index.hh
+    DefaultDocument = index.php
 }
 
 Log {
@@ -22,7 +22,7 @@ VirtualHost {
        * {
          pattern =.?
          # App bootstrap
-         to = index.hh
+         to = index.php
          # Append the original query string
          qsa = true
        }
