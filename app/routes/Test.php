@@ -5,7 +5,11 @@ class Test {
     echo "Test of Hack with Slim";
   }
 
-  public static function hello(string $name): void {
+  public static function blankHello(): void {
+    echo "Hello, user";
+  }
+
+  public static function namedHello(string $name): void {
     echo "Hello, $name";
   }
 }

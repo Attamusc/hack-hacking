@@ -11,7 +11,8 @@ $app = new \Slim\Slim();
 Router::loadRoutes();
 Router::generateRoutingTable($app, Map {
   'get /' => '\app\Test::index',
-  'get /hello/:name' => '\app\Test::hello'
+  'get /hello' => '\app\Test::blankHello',
+  'get /hello/:name' => '\app\Test::namedHello'
 });
 
 $app->run();
