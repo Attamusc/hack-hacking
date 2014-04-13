@@ -5,7 +5,7 @@ use \HH\Map;
 class Router {
   public static function loadRoutes() {
     // Load all the routes into the global namespace
-    foreach (glob($_SERVER['DOCUMENT_ROOT'] . "../app/routes/*.php") as $filename) {
+    foreach (glob("../app/routes/*.php") as $filename) {
       require_once $filename;
     }
   }
